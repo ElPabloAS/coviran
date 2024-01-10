@@ -1,0 +1,187 @@
+body {
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* For desktop: */
+.container {
+    width: 92%;
+    margin: 0 auto;
+}
+/* For mobile: */
+@media screen and (max-width: 1000px) {
+    .container {
+        width: 100%;
+    }
+}
+/* For desktop: */
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* For mobile: */
+@media screen and (max-width: 1000px) {
+    .row {
+        flex-wrap: wrap;
+    }
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+.justify-content {
+    justify-content: center;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+/* For desktop: */
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+/* For mobile: */
+@media only screen and (max-width: 1000px) {
+    [class*="col-"] {
+        width: 100%;
+    }
+}
+
+/* For desktop: */
+[class*="col-"] {
+    padding: 15px;
+}
+
+.shadow {
+    box-shadow: 0 0 20px gainsboro;
+    border-radius: 10px;
+}
+nav ul{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+nav li {
+    display: inline;
+    padding: 10px;
+    font-size: 20px;
+}
+/* For mobile: */
+@media screen and (max-width: 1000px) {
+    nav li {
+        display: flex;
+        justify-content: center;
+        font-size: 30px;
+    }
+    nav ul {
+        background-color: rgb(243, 251, 254);
+    }
+}
+
+
+
+/*-----------------------------------*/
+
+header{
+    background-color: #275B35;
+    
+    width: 100%;
+    padding: 10px 0;
+}
+
+.text-w{
+    color: white;
+}
+.logito{
+margin: 0 10px;
+}
+header a{
+    text-decoration: none;
+    color: white;
+}
+main a {
+    text-decoration: none;
+    color: black;
+}
+li{
+    margin-right: 20px;
+    list-style: none;
+}
+main form{
+    margin-right: 80px;
+}
+.x-10{
+    padding: 10px 0;
+}
+.busta{
+    width: 100%;
+}
+.container2{
+    width: 31%;
+    height: 370px;
+    margin: 30px 0 ;
+    box-shadow: 0 0 14px rgb(171, 171, 171);
+}
+.text-center{
+    text-align: center;
+}
+.texto{
+    padding-top: 37px;
+    font-size: 25px;
+    padding-left:20px;
+    padding-right: 20px;
+}
+.img{
+    width: 100%;
+}
