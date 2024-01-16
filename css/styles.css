@@ -158,14 +158,11 @@ li{
     margin-right: 20px;
     list-style: none;
 }
-main form{
+main nav{
     margin-right: 80px;
 }
 .x-10{
     padding: 10px 0;
-}
-.busta{
-    width: 100%;
 }
 .container2{
     width: 31%;
@@ -206,4 +203,83 @@ hr{
 }
 .servicios div{
     color: white;
+}
+nav ul, nav li {
+    margin: 0px;
+    padding: 0px;
+    font-size: 17px;
+}
+nav ul li {
+    float: left;
+    list-style-type: none;
+    position: relative;
+    padding: 10px;
+    
+} 
+nav ul li ul {
+    display: none;
+    position: absolute;
+    z-index: 4;
+}  
+nav ul li:hover ul {
+    display: block;
+    background-color: white;
+    
+    color: black;
+
+}
+nav ul li ul li{
+    border-bottom: 2px solid grey;
+    padding-top: 10px;
+    width: 250px;
+
+}
+nav ul li ul{
+    margin-left: -15px;
+}
+nav ul li a{
+    color: grey;
+}
+nav ul li:hover a{
+color: #297B3C;
+}
+nav ul li:hover ul li a{
+    color: grey;
+}
+nav ul li ul li:hover a{
+    color: black;
+}
+nav ul li ul li:hover{
+
+    background-color: grey;
+}
+.fondo{
+    background-image: url(../img/coviran-bustamante.png);
+    height: 550px;
+    overflow: hidden;
+    background-repeat: none;
+    position: relative;
+    background-size: cover;
+}
+img[src="img/fanta2.png"] {
+    left: 3000px;
+    transition: left 1s;
+    position: absolute;
+    transform: translateY(-50%);
+    top: 50%;
+}
+.fondo:hover img[src="img/fanta2.png"] {
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.cristal {
+    background-color: rgba(0, 0, 0, 0);
+    position: absolute;
+    width: 400px;
+    height: 370px;
+    transition:background-color, 1s;
+}
+.cristal:hover {
+    background-color: rgba(0, 0, 0, 0.265);
 }
