@@ -185,3 +185,24 @@ main form{
 .img{
     width: 100%;
 }
+.servicios{
+    background-color: #297B3C;
+    height: 100px;
+    padding-left: 20px;
+    padding-right: 20px ;
+}
+
+.footer{
+    background-color: #295B35;
+    height: 200px;
+}
+hr{
+    width: 100%;
+}
+.container3{
+    width: 23%;
+
+}
+.servicios div{
+    color: white;
+}
