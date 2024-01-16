@@ -194,7 +194,8 @@ main form{
 
 .footer{
     background-color: #295B35;
-    height: 200px;
+    padding: 20px;
+    color: white;
 }
 hr{
     width: 100%;
